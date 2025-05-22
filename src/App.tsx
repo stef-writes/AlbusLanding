@@ -165,7 +165,7 @@ function App() {
                 <WhoCard title="Analysts" desc="who value logic over vibes" />
                 <WhoCard title="Philosophers" desc="who want to build" />
                 <WhoCard title="Designers" desc="who prototype in intelligence" />
-                <WhoCard title="Thinkers" desc="Not all who wander are lost" />
+                <WhoCard title="Storytellers" desc="Weaving the threads of what could be." />
               </div>
             </div>
           </section>
