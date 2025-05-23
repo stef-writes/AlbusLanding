@@ -8,7 +8,7 @@
 
 Albus exists for that future.
 
-It’s not just another AI productivity tool. Albus is a **creative intelligence environment**—one designed to capture how people think, not just what they produce. A space for curiosity, clarity, and computational expression.
+It's not just another AI productivity tool. Albus is an **Independent Creator Environment (ICE)**—an AI-native IDE for designing expert systems. It captures not just what you produce, but how you think—bridging curiosity, logic, and computational creativity.
 
 It's an **instrument of intelligence**, one to be played by the curious.
 
@@ -18,27 +18,28 @@ It's an **instrument of intelligence**, one to be played by the curious.
 
 | Principle                            | What It Means                                                                            |
 | ------------------------------------ | ---------------------------------------------------------------------------------------- |
-| **Thinking-first design**            | Albus celebrates process, not just output. The interface is built to mirror cognition.   |
-| **Context as a first-class citizen** | Not just chat history. We preserve, shape, and reuse contextual memory across workflows. |
-| **Programmability without code**     | Nodes act like functions. Prompts as programs. Logic as flow. No syntax needed.          |
-| **Explainable outputs**              | Every result is traceable to its logic. Click a paragraph, open the graph.               |
-| **Reuse by design**                  | Every node, every chain, every thought can be saved, templatized, evolved.               |
-| **Visual, semantic thinking**        | Structure and sketch. Map and model. Albus lets left and right brain work in tandem.     |
+| **Thinking-first architecture**      | Albus mirrors cognition. Ideas flow from sketch to system, preserving the shape of thought—not just the result. |
+| **Context as a computation layer**   | Forget chat history. Albus builds memory graphs that evolve across workflows, enabling true context reuse. |
+| **Expert system design, no code required** | Compose prompts like functions, connect tools like APIs, and build logic like software—without writing syntax. |
+| **Explainable by design**            | Every output is traceable to the logic and data that created it. Click a paragraph, inspect the path. |
+| **Reusable intelligence**            | Every node, chain, and insight can be saved, versioned, and embedded—intelligence that compounds over time. |
+| **Multimodal reasoning canvas**      | Sketch. Structure. Orchestrate. Albus unites left-brain logic and right-brain creativity in a visual IDE for AI systems. |
 
 ---
 
 ## 🧬 Inspired by the Brain
 
-**Nodes are neurons.**
-Chains are pathways. Subgraphs become networks.
+Albus mirrors the architecture of human cognition:
 
-ScriptChain, our underlying logic engine, is the infrastructure for AI cognition. The Albus interface is the executive network and the corpus callosum: bridging structured logic (left brain) and creative ideation (right brain).
+**Nodes are neurons** — units of reasoning, retrieval, or generation
 
-You don’t prompt an AI—you compose with it.
+**Chains are pathways** — directional flows of logic and thought
+
+**Subgraphs become networks** — modular systems that interlink and evolve
 
 ---
 
-## 🧭 The Three Creative Spaces
+## 🧭 The Cognition-Driven Stack
 
 ### 1. **Ideation Space**: Sketch, think, connect
 
@@ -47,16 +48,16 @@ You don’t prompt an AI—you compose with it.
 * AI-augmented clustering
 * Contextual whiteboarding
 
-> Where cognition begins—in sketches, fragments, and sparks.
+> where raw ideas are expressed, clarified, and given form
 
-### 2. **Creation Space**: Orchestrate AI logic
+### 2. **Orchestration Space**: Craft Expert Intelligence
 
 * Visual chain builder (DAG)
 * Nodes: Prompt, Tool, Agent, Eval, Render
 * Model config, system messages, I/O schema
 * MCP (Model Context Protocol) for adaptive reasoning
 
-> Where abstract thought becomes composable logic.
+> where logic is composed, intelligence is structured, and systems are executed
 
 ### 3. **Publication Space**: Communicate outcomes
 
@@ -69,7 +70,7 @@ You don’t prompt an AI—you compose with it.
 
 ---
 
-## 🧑‍🚀 Who It’s For
+## 🧑‍🚀 Who It's For
 
 * **Founders** who think in systems
 * **Strategists** who diagram reasoning
@@ -85,8 +86,8 @@ Albus is not built for prompt engineers. It's built for **thinkers**.
 
 > In a world overrun by outputs, Albus chooses to honor thought.
 
-We’re not optimizing for hustle. We’re not replacing people.
-We’re giving people tools to **externalize**, **orchestrate**, and **evolve** their reasoning.
+We're not optimizing for hustle. We're not replacing people.
+We're giving people tools to **externalize**, **orchestrate**, and **evolve** their reasoning.
 
 Because the next leap in intelligence will not come from the machine.
 It will come from those who **design how the machine thinks.**

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Brain, ArrowRight, Github, Linkedin, Twitter, Sparkles, BookOpen, Code2, Eye, Repeat, Layout, Users, ChevronDown } from 'lucide-react';
+import { Brain, ArrowRight, Github, Linkedin, Twitter, Sparkles, BookOpen, Code2, Eye, Repeat, Layout, ChevronDown } from 'lucide-react';
 
 function App() {
   const [showFullContent, setShowFullContent] = useState(false);
@@ -21,7 +21,7 @@ function App() {
               </span>
               <br />
               <span className="text-gray-100 font-semibold not-italic">
-                we needed a nation of <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">thinkers</span>, not <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">workers</span>.
+                we needed a nation of <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">thinkers</span>, not just <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">workers</span>.
               </span>
             </blockquote>
             
@@ -76,7 +76,7 @@ function App() {
                 An Instrument of Intelligence
               </h2>
               <p className="text-xl md:text-2xl text-gray-200 leading-relaxed">
-                Albus is a <span className="font-semibold text-purple-300">creative intelligence environment</span>—designed to capture how people think, not just what they produce. A space for curiosity, clarity, and computational expression.
+                Albus is an <span className="font-semibold text-purple-300">Independent Creator Environment (ICE)</span>—an AI-native IDE for designing expert systems. It captures not just what you produce, but how you think—bridging curiosity, logic, and computational creativity.
               </p>
             </div>
           </section>
@@ -86,12 +86,12 @@ function App() {
             <div className="container mx-auto px-6">
               <h2 className="text-4xl md:text-5xl font-semibold text-center mb-20 text-gray-100">What Makes Albus Different</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <PrincipleCard icon={<Sparkles className="w-10 h-10 text-purple-400" />} title="Thinking-first design" desc="Albus celebrates process, not just output. The interface is built to mirror cognition." />
-                <PrincipleCard icon={<BookOpen className="w-10 h-10 text-purple-400" />} title="Context as a first-class citizen" desc="Not just chat history. We preserve, shape, and reuse contextual memory across workflows." />
-                <PrincipleCard icon={<Code2 className="w-10 h-10 text-purple-400" />} title="Programmability without code" desc="Nodes act like functions. Prompts as programs. Logic as flow. No syntax needed." />
-                <PrincipleCard icon={<Eye className="w-10 h-10 text-purple-400" />} title="Explainable outputs" desc="Every result is traceable to its logic. Click a paragraph, open the graph." />
-                <PrincipleCard icon={<Repeat className="w-10 h-10 text-purple-400" />} title="Reuse by design" desc="Every node, every chain, every thought can be saved, templatized, evolved." />
-                <PrincipleCard icon={<Layout className="w-10 h-10 text-purple-400" />} title="Visual, semantic thinking" desc="Structure and sketch. Map and model. Albus lets left and right brain work in tandem." />
+                <PrincipleCard icon={<Sparkles className="w-10 h-10 text-purple-400" />} title="Thinking-first architecture" desc="Albus mirrors cognition. Ideas flow from sketch to system, preserving the shape of thought—not just the result." />
+                <PrincipleCard icon={<BookOpen className="w-10 h-10 text-purple-400" />} title="Context as a computation layer" desc="Forget chat history. Albus builds memory graphs that evolve across workflows, enabling true context reuse." />
+                <PrincipleCard icon={<Code2 className="w-10 h-10 text-purple-400" />} title="Expert system design, no code required" desc="Compose prompts like functions, connect tools like APIs, and build logic like software—without writing syntax." />
+                <PrincipleCard icon={<Eye className="w-10 h-10 text-purple-400" />} title="Explainable by design" desc="Every output is traceable to the logic and data that created it. Click a paragraph, inspect the path." />
+                <PrincipleCard icon={<Repeat className="w-10 h-10 text-purple-400" />} title="Reusable intelligence" desc="Every node, chain, and insight can be saved, versioned, and embedded—intelligence that compounds over time." />
+                <PrincipleCard icon={<Layout className="w-10 h-10 text-purple-400" />} title="Multimodal reasoning canvas" desc="Sketch. Structure. Orchestrate. Albus unites left-brain logic and right-brain creativity in a visual IDE for AI systems." />
               </div>
             </div>
           </section>
@@ -106,14 +106,19 @@ function App() {
                     </div>
                     <div className="md:col-span-3 space-y-6">
                         <p className="text-2xl md:text-3xl text-gray-200 leading-snug text-center md:text-left">
-                            <span className="font-semibold text-purple-300">Nodes are neurons.</span> Chains are pathways. Subgraphs become networks.
+                            Albus mirrors the architecture of human cognition:
                         </p>
-                        <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-                            ScriptChain, our underlying logic engine, is the infrastructure for AI cognition. The Albus interface is the executive network and the corpus callosum: bridging structured logic (left brain) and creative ideation (right brain).
-                        </p>
-                        <p className="text-xl md:text-2xl text-purple-400 italic text-center md:text-left">
-                            You don't prompt an AI—you compose with it.
-                        </p>
+                        <div className="space-y-4 text-gray-300 text-lg md:text-xl leading-relaxed">
+                            <p>
+                                <span className="font-semibold text-purple-300">Nodes are neurons</span> — units of reasoning, retrieval, or generation
+                            </p>
+                            <p>
+                                <span className="font-semibold text-purple-300">Chains are pathways</span> — directional flows of logic and thought
+                            </p>
+                            <p>
+                                <span className="font-semibold text-purple-300">Subgraphs become networks</span> — modular systems that interlink and evolve
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,7 +127,7 @@ function App() {
           {/* Three Creative Spaces Section */}
           <section id="spaces" className="py-24">
             <div className="container mx-auto px-6">
-              <h2 className="text-4xl md:text-5xl font-semibold text-center mb-20 text-gray-100">The Three Creative Spaces</h2>
+              <h2 className="text-4xl md:text-5xl font-semibold text-center mb-20 text-gray-100">The Cognition-Driven Stack</h2>
               <div className="grid md:grid-cols-3 gap-10">
                 <SpaceCard title="Ideation Space" subtitle="Sketch, think, connect" desc={<>
                   <ul className="text-left list-disc list-inside text-gray-300/90 mb-4 space-y-1.5 leading-relaxed text-base">
@@ -131,16 +136,16 @@ function App() {
                     <li>AI-augmented clustering</li>
                     <li>Contextual whiteboarding</li>
                   </ul>
-                  <span className="italic text-purple-300/80 text-sm font-medium">Where cognition begins—in sketches, fragments, and sparks.</span>
+                  <span className="italic text-purple-300/80 text-sm font-medium">where raw ideas are expressed, clarified, and given form</span>
                 </>} />
-                <SpaceCard title="Creation Space" subtitle="Orchestrate AI logic" desc={<>
+                <SpaceCard title="Orchestration Space" subtitle="Craft Expert Intelligence" desc={<>
                   <ul className="text-left list-disc list-inside text-gray-300/90 mb-4 space-y-1.5 leading-relaxed text-base">
                     <li>Visual chain builder (DAG)</li>
                     <li>Nodes: Prompt, Tool, Agent, Eval, Render</li>
                     <li>Model config, system messages, I/O schema</li>
                     <li>MCP (Model Context Protocol) for adaptive reasoning</li>
                   </ul>
-                  <span className="italic text-purple-300/80 text-sm font-medium">Where abstract thought becomes composable logic.</span>
+                  <span className="italic text-purple-300/80 text-sm font-medium">where logic is composed, intelligence is structured, and systems are executed</span>
                 </>} />
                 <SpaceCard title="Publication Space" subtitle="Communicate outcomes" desc={<>
                   <ul className="text-left list-disc list-inside text-gray-300/90 mb-4 space-y-1.5 leading-relaxed text-base">
@@ -165,7 +170,7 @@ function App() {
                 <WhoCard title="Analysts" desc="who value logic over vibes" />
                 <WhoCard title="Philosophers" desc="who want to build" />
                 <WhoCard title="Designers" desc="who prototype in intelligence" />
-                <WhoCard title="Storytellers" desc="Weaving the threads of what could be." />
+                <WhoCard title="Storytellers" desc="weaving the threads of what can be" />
               </div>
             </div>
           </section>
