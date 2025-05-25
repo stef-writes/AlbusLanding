@@ -17,11 +17,11 @@ function App() {
           <div className="max-w-4xl mx-auto text-center space-y-12">
             <blockquote className="text-3xl md:text-4xl text-gray-200 italic leading-tight">
               <span className="line-through text-gray-500">
-                we needed a nation of <span className="font-semibold">workers</span>, not <span className="font-semibold">thinkers</span>.
+                we need a nation of <span className="font-semibold">workers</span>, not <span className="font-semibold">thinkers</span>.
               </span>
               <br />
               <span className="text-gray-100 font-semibold not-italic">
-                we needed a nation of <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">thinkers</span>, not just <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">workers</span>.
+                we need a nation of <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">thinkers</span>, not just <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">workers</span>.
               </span>
             </blockquote>
             
